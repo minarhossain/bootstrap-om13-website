@@ -1,0 +1,750 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Own CSs -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font-awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <title>Business Website</title>
+</head>
+
+<body>
+
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light">
+
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">B2B</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse " id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item m">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Team</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Dropdown link
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Features</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li> -->
+                        <li class="nav-item">
+                            <button type="button" class="btn btn-outline-success rounded-pill"> STARTED</button>
+                        </li>
+
+                    </ul>
+
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="darkSwitch">
+                        <label class="form-check-label" for="darkSwitch">Dark Mode</label>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="message">
+            Dark Mode enabled
+        </div>
+
+    </header>
+
+    <!-- Main section Started Here -->
+    <main>
+        <div class="container my-5">
+            <!--  Event Slider Part -->
+
+            <div style="height:80vh !important" id="carouselExampleCaptions" class="carousel slide"
+                data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner ">
+                    <div class="carousel-item active custom-item">
+                        <img style="height:80vh !important" class="img-fluide w-100 img-thumnail img-eff"
+                            src="images/cover/cover-1.png" class="d-block w-100" alt="...">
+
+                        <div class="carousel-caption  d-md-block mb-5 d-flex align-items-center">
+                            <div class="mb-5">
+                                <h1 class="mb-3"> Search Engine Optimization (SEO)</h1>
+                                <p class="mb-3">Through careful keyword research and white hat SEO practices, we can
+                                    help you achieve higher organic rankings and
+                                    increased visibility in search results. Our internet marketing company.</p>
+                                <p>
+                                <div class="btn btn btn-primary text-white btn-lg px-4 fw-bold text-info mb-5"><a
+                                        class="text-decoration-none text-white" href="" target="_blank">Get Started</a>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item custom-item">
+                        <img style="height:80vh !important" class="img-fluide w-100 img-thumnail img-eff"
+                            src="images/cover/cover-2.jpg" class="d-block w-100" alt="...">
+
+                        <div class="carousel-caption d-md-block mb-5 d-flex align-items-center">
+                            <div class="mb-5">
+                                <h1 class="mb-3">Social Media Marketing (FB,IG,IN,Tt)</h1>
+                                <p class="mb-3">Ready to expand and market to your audiences on social media? We build
+                                    social media campaigns to help your business grow
+                                    and engage your followers.</p>
+                                <p>
+                                <div class="btn btn btn-primary text-white btn-lg px-4 fw-bold text-info mb-5"><a
+                                        class="text-decoration-none text-white" href="" target="_blank">Get Started</a>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="carousel-item custom-item">
+                        <img style="height:80vh !important" class="img-fluide w-100 img-thumnail img-eff"
+                            src="images/cover/cover-3.jpg" class="d-block w-100" alt="...">
+
+                        <div class="carousel-caption d-md-block mb-5 d-flex align-items-center">
+                            <div class="mb-5">
+                                <h1 class="mb-3">Online Reputation Management (ORM)</h1>
+                                <p class="mb-3">Your reviews and online reputation can make or break your success
+                                    online. Improve your reputation and reap the rewards
+                                    with the help of our internet marketing agency</p>
+                                <p>
+                                <div class="btn btn btn-primary text-white btn-lg px-4 fw-bold text-info mb-5"><a
+                                        class="text-decoration-none text-white" href="" target="_blank">Get Started</a>
+                                </div>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+
+        <!-- About Us Section -->
+        <section class="about_section" id="about">
+            <div class="container">
+                <h2 class="text-center mb-5 font-weight-bold">ABOUT US</h2>
+                <div class="row g-3">
+                    <div class="col-md-6">
+                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                            incididunt ut labore et dolore magna aliqua.</p>
+                        <ul class="lead">
+                            <li class="list-item mb-2"><i class="fas fa-check-double"></i> Ullamco laboris nisi ut
+                                aliquip ex ea
+                                commodo consequat</li>
+                            <li class="list-item mb-2"><i class="fas fa-check-double"></i> Duis aute irure dolor in
+                                reprehenderit in voluptate velit</li>
+                            <li class="list-item mb-2"><i class="fas fa-check-double"></i> Ullamco laboris nisi ut
+                                aliquip ex ea
+                                commodo consequat</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="lead">Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in
+                            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
+                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum.</p>
+                        <a href="#" role="button" class="btn btn-outline-info">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Discover part started here -->
+
+
+        <section class="my-5 container">
+            <div class="card text-center container border-0">
+
+                <div class="card-body">
+                    <h1 class="card-title">Discover Our Popular <br> Courses</h1>
+                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                </div>
+            </div>
+            <div class="d-flex justify-content-between flex-wrap mx-auto">
+                <div class="card mb-3" style="max-width: 530px;">
+                    <div class="row g-0">
+                        <div class=" col-sm-12 col-md-4">
+                            <img src="images/course/course-1.png" class="img-fluid rounded-start w-100" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">Fundamental of UI/UX Design</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional
+                                    content. This content is a little bit longer.</p>
+                                <h4 class="card-text text-primary"> Price : 25$</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 530px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-2.png" class="img-fluid rounded-start w-100" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">JavaScript Basic to Advanced</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional
+                                    content. This content is a little bit longer.</p>
+                                <h4 class="card-text text-primary"> Price : 100$</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 530px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-3.png" class="img-fluid rounded-start w-100" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">Fullstack Web Development</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional
+                                    content. This content is a little bit longer.</p>
+                                <h4 class="card-text text-primary"> Price : 50$</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 530px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-4.png" class="img-fluid rounded-start w-100" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Digital Marketing</h5>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional
+                                    content. This content is a little bit longer.</p>
+                                <h4 class="card-text text-primary"> Price : 40$</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 530px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-5.png" class="img-fluid rounded-start w-100" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">Photography Basic Rules</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional
+                                    content. This content is a little bit longer.</p>
+                                <h4 class="card-text text-primary"> Price : 35$</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-3" style="max-width: 530px;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="images/course/course-6.png" class="img-fluid rounded-start w-100" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h3 class="card-title">Motion Graphics</h3>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to additional
+                                    content. This content is a little bit longer.</p>
+                                <h4 class="card-text text-primary"> Price : 25$</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center">
+                <div class="btn btn-primary btn-lg my-5">See More Courses</div>
+            </div>
+
+        </section>
+        <!-- Discover part end here -->
+
+        <!--Start of TEAM section-->
+        <section class="team" id="team">
+            <div class="container">
+                <div class="team-text text-center">
+                    <h2>TEAM</h2>
+                    <p>Teams are formed to accomplish specific tasks, projects, or objectives. The purpose can vary
+                        depending on the context.
+                        For example, a business team may aim to develop a new product, while a sports team may strive to
+                        win a championship.</p>
+                </div>
+
+
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="row team_card_container">
+                            <div class="col-4 team_image_container">
+                                <img src="https://png.pngtree.com/thumb_back/fw800/background/20221123/pngtree-smart-young-man-showing-happy-gesture-single-teen-guy-photo-photo-image_699133.jpg"
+                                    class="team_image" alt="Ali Azgor">
+                            </div>
+                            <div class="col-8 team_about gx-5">
+                                <h3 class="team_name">Ali Azgor</h3>
+                                <p class="team-desig">Product Manager</p>
+                                <p class="team_about_text">Aut maiores voluptates amet et quis praesentium qui senda
+                                </p>
+                                <div class="social_media_container">
+                                    <a href="#" target="_blank"><i class="fab fa-facebook-f img_icon"></i></a>
+
+                                    <a href="#" target="_blank"><i class="fab fa-twitter img_icon"></i></a>
+
+                                    <a href="#" target="_blank"><i class="fab fa-instagram-square img_icon"></i></a>
+
+                                    <a href="#" target="_blank"><i class="fab fa-linkedin img_icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row team_card_container">
+                            <div class="col-4 team_image_container">
+                                <img src="https://media.istockphoto.com/id/926239360/photo/portrait-with-copy-space-of-thoughtful-serious-bearded-man-in-spectacles-holding-copybook-and.jpg?s=612x612&w=0&k=20&c=hbF_zCNMMvWumKOUr9J6O1AfGdXoU6899_JpxrnpJeA="
+                                    class="team_image" alt="Bulbul Ahamed">
+                            </div>
+                            <div class="col-8 team_about gx-5">
+                                <h3 class="team_name">Bulbul Ahamed</h3>
+                                <p class="team-desig">Product Manager</p>
+                                <p class="team_about_text">Aut maiores voluptates amet et quis praesentium qui senda
+                                </p>
+                                <div class="social_media_container">
+                                    <a href="#" target="_blank"><i class="fab fa-facebook-f img_icon"></i></a>
+
+                                    <a href="#" target="_blank"><i class="fab fa-twitter img_icon"></i></a>
+
+                                    <a href="#" target="_blank"><i class="fab fa-instagram-square img_icon"></i></a>
+
+                                    <a href="#" target="_blank"><i class="fab fa-linkedin img_icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row team_card_container">
+                            <div class="col-4 team_image_container">
+                                <img src="https://img.freepik.com/premium-photo/businessman-male-pose-single-smart_1098-5756.jpg?w=2000"
+                                    class="team_image" alt="Jalis Mahamud">
+                            </div>
+                            <div class="col-8 team_about gx-5">
+                                <h3 class="team_name">Jalis Mahamud</h3>
+                                <p class="team-desig">CTO</p>
+                                <p class="team_about_text">Quisquam facilis cum velit laborum corrupti fuga rerum</p>
+                                <div class="social_media_container">
+                                    <a href="#" target="_blank"><i class="fab fa-facebook-f img_icon"></i></a>
+
+                                    <a href="#" target="_blank"><i class="fab fa-twitter img_icon"></i></a>
+
+                                    <a href="#" target="_blank"><i class="fab fa-instagram-square img_icon"></i></a>
+
+                                    <a href="#" target="_blank"><i class="fab fa-linkedin img_icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="row team_card_container">
+                            <div class="col-4 team_image_container">
+                                <img src="https://st.depositphotos.com/2117297/2232/i/600/depositphotos_22320565-stock-photo-smart-man-with-glasses.jpg"
+                                    class="team_image" alt="Mehedi Hasan">
+                            </div>
+                            <div class="col-8 team_about gx-8">
+                                <h3 class="team_name">Mehedi Hasan</h3>
+                                <p class="team-desig">Accountant</p>
+                                <p class="team_about_text">Explicabo voluptatem mollitia et repellat qui dolorum quasi
+                                </p>
+                                <div class="social_media_container">
+                                    <a href="#" target="_blank"><i class="fab fa-facebook-f img_icon"></i></a>
+
+                                    <a href="#" target="_blank"><i class="fab fa-twitter img_icon"></i></a>
+
+                                    <a href="#" target="_blank"><i class="fab fa-instagram-square img_icon"></i></a>
+
+                                    <a href="#" target="_blank"><i class="fab fa-linkedin img_icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </section>
+        <!--End of TEAM section-->
+        <!-- Register part started here -->
+        <section>
+            <div
+                class="container bg-primary p-5 d-flex align-items-center justify-content-between flex-wrap my-5 rounded">
+                <div style="max-width: 635px;">
+                    <h1 class="text-white">Fell Free Register or Contact With Us</h1>
+                    <p class="text-white">It is a long established fact that a reader will be distracted by the
+                        readable content of a page when looking at its layout</p>
+                </div>
+                <div>
+                    <div class="d-flex  align-items-center">
+                        <!-- <button class="btn btn-light text-dark btn-lg ">Register Now</button> -->
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-light text-dark btn-lg" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Register/Contact
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">For Details Register Here</h5>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Name
+                                                address</label>
+                                            <input type="text" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="Your Full Name">
+                                        </div>
+
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Email
+                                                address</label>
+                                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="name@example.com">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Password
+                                                address</label>
+                                            <input type="password" class="form-control" id="exampleFormControlInput1"
+                                                placeholder="Password">
+                                        </div>
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlTextarea1" class="form-label">Describe
+                                                Yourself</label>
+                                            <textarea class="form-control" id="exampleFormControlTextarea1"
+                                                rows="3"></textarea>
+                                        </div>
+
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                        <button type="button" class="btn btn-primary">Register</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Register part End here -->
+
+        <!-- Accordion Section Started Here -->
+        <section class="container my-5">
+            <div class="accordion w-75 md-w-100 mx-auto " id="accordionExample">
+
+                <h1 class="mb-4 text-bolder text-center">Frequently Asked Questions (FAQ) </h1>
+                <p class="mb-5 text-center">It is a long established fact that a reader will be distracted by the
+                    readable
+                    content of a ,<br> page when looking at its layout.</p>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingOne">
+                        <button class="accordion-button " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <strong>What are the difference between flexbox and grid?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Dimensions define the primary demarcation between Flexbox and CSS Grid. Flexbox was designed
+                            specifically for
+                            one-dimensional layouts, while CSS Grid is engineered to enable two-dimensional layouts.
+                            Therefore, CSS Grid can easily
+                            render rows and columns simultaneously.
+
+                            In layperson’s terms, CSS Grid presents a larger canvas, while Flexbox offers minute
+                            functionality that operates in a
+                            restricted space. The grids have been designed for a two-dimensional organization.
+
+                            However, the two specifications share some common points, and if you know how to use
+                            flexible boxes, you will find some
+                            concepts that will help you to grasp CSS grids.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <strong>Difference between Bootstrap and Tailwind?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>Tailwind</strong>
+                            Tailwind CSS is a utility-first CSS framework for building custom user interfaces rapidly
+                            and efficiently. It is
+                            an inline styling used to achieve a sleek interface without writing code for your own CSS.
+                            Tailwind CSS offers
+                            customizability and flexibility to transform the appearance and feel of the elements.
+                            <br>
+                            <strong>Bootstrap</strong>
+                            an open-source framework that is used to design responsive websites better, faster, and
+                            easier. It is a
+                            beginner-friendly and the most popular open-source framework that includes HTML, CSS, and
+                            JavaScript. Bootstrap can be
+                            used to create web applications with any server-side Technology like Java, PHP, etc., and
+                            its responsive design allows
+                            platforms like Mobile phones, tablets, and computers. Bootstrap contains CSS and
+                            JavaScript-based design templates for
+                            typography, forms, buttons, navigation, icons, and other interface components. It is based
+                            on object-oriented CSS.
+                            Bootstrap helps to design and develop website templates quickly.
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <strong>What is CSS Box Model?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            The CSS box model is a container that contains multiple properties including borders,
+                            margin, padding, and the content itself. It is used to create the design and layout of web
+                            pages. It can be used as a toolkit for customizing the layout of different elements. The web
+                            browser renders every element as a rectangular box according to the CSS box model. Box-Model
+                            has multiple properties in CSS. Some of them are given below:
+                        </div>
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h2 class="accordion-hheadingFour">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                            <strong>What is the Semantic Tag?</strong>
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+                        data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            HTML was originally created as a markup language to describe documents on the early
+                            internet. As the internet grew and
+                            was adopted by more people, its needs changed.
+
+                            Where the internet was originally intended for sharing scientific documents, now people
+                            wanted to share other things as
+                            well. Very quickly, people started wanting to make the web look nicer.
+
+                            Because the web was not initially built to be designed, programmers used different hacks to
+                            get things laid out in
+                            different ways. Rather than using the <table></table> to describe information using a table,
+                            programmers would use them
+                            to position other elements on a page.
+
+                            As the use of visually designed layouts progressed, programmers started to use a generic
+                            “non-semantic” tag like <div>.
+                                They would often give these elements a class or id attribute to describe their purpose.
+                                For example, instead of
+                                <header> this was often written as <div class="header">.
+                                    </div>
+                            </div>
+                        </div>
+                    </div>
+        </section>
+        <!-- Accordion Section End Here -->
+
+        <!-- Company List Started here -->
+
+        <section class="container my-5 d-none d-lg-block mb-5">
+            <h1 class="text-center fs-1 text-bold mb-3">Trusted by over 800+ companies</h1>
+            <div class=" d-flex align-items-center justify-content-between flex-wrap">
+                <img src="images/company/company-1.png" alt="">
+                <img src="images/company/company-2.png" alt="">
+                <img src="images/company/company-3.png" alt="">
+                <img src="images/company/company-4.png" alt="">
+                <img src="images/company/company-5.png" alt="">
+                <img src="images/company/company-6.png" alt="">
+            </div>
+
+        </section>
+
+        <!-- Company List Started here -->
+
+        <!-- Progress Section Stated here -->
+        <section class="skills">
+            <div class="container">
+                <div class="row d-flex justify-content-center align-items-center">
+                    <div class="col-md-6">
+                        <img class="skill-image img-fluid"
+                            src="https://media.istockphoto.com/id/1330261666/vector/skills-set-concept.jpg?s=612x612&w=0&k=20&c=5BkcO70VVcRBZVnuSMv9I1cuamf5eqDobYgnhWZMXtU="
+                            alt="skills">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="progress_bar_section mt-3">
+                            <h3>B2B I is my Personal WEB DEVELOPMENT Agency Here My Personal Skills Progress BAR</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                                ut
+                                labore et dolore magna aliqua.</p>
+                            <div class="col-md-12">
+                                <div class="d-flex justify-content-between font-weight-bold">
+                                    <div class="start">HTML</div>
+                                    <div class="end">100%</div>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="100" style="width:100%;"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-12 mt-4">
+                                <div class="d-flex justify-content-between font-weight-bold">
+                                    <div class="start">CSS</div>
+                                    <div class="end">90%</div>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="90" style="width:90%;"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-12 mt-4">
+                                <div class="d-flex justify-content-between font-weight-bold">
+                                    <div class="start text-uppercase">Bootstrap</div>
+                                    <div class="end">75%</div>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="75" style="width:75%;"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+
+                            </div>
+
+                            <div class="col-md-12 mt-4">
+                                <div class="d-flex justify-content-between font-weight-bold">
+                                    <div class="start text-uppercase">Javascript</div>
+                                    <div class="end">65%</div>
+                                </div>
+                                <div class="progress">
+                                    <div class="progress-bar" role="progressbar" aria-valuenow="65" style="width:65%;"
+                                        aria-valuemin="0" aria-valuemax="100"></div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Progress Section End Here -->
+
+    </main>
+    <!-- Main section End Here -->
+
+    <!-- Footer part started Here -->
+    <footer id="footer" class="bg-dark p-5 mt-5">
+
+        <div class="container text-md-left">
+
+            <div class="d-flex justify-content-center align-items-center">
+                <div>
+                    <h1 class="text-white text-center mb-2">B2B Digital Agency</h1>
+                    <p class=" text-white text-center mb-0"> Office 32, Jalilpur Sadar, Hospital Road <br> Dhaka,
+                        Bangladesh
+                    </p>
+                    <p class="text-white text-center"> Privacy Policy | Terms of use </p>
+                    <div class="social-icons text-white text-center">
+                        <i class="fa-brands fa-facebook m-1 fs-3"></i><i class="fa-brands fa-instagram m-1 fs-3"></i><i
+                            class="fa-brands fa-linkedin m-1 fs-3"></i><i class="fa-brands fa-youtube m-1 fs-3"></i>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+    </footer>
+    <!-- Footer part End Here -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
